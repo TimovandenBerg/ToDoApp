@@ -1,0 +1,43 @@
+.task {
+  width: 100%;
+  background: var(--clr-form-bg);
+  border: 1px solid var(--clr-action-bg);
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.task p {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--clr-text);
+  margin-right: auto;
+}
+.task p .textCompleted {
+  color: var(--clr-form-placeholder);
+  text-decoration: line-through;
+}
+.task__checkContainer {
+  width: 18px;
+  height: 18px;
+  background: none;
+  border: none;
+}
+.task__checkContainer div {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  border: 2px solid var(--clr-text-special);
+}
+.task__checkContainer svg {
+  width: 100%;
+  height: 100%;
+  color: var(--clr-svg);
+}
+.task__deleteButton {
+  background: none;
+  border: none;
+  color: var(--clr-form-placeholder);
+}/*# sourceMappingURL=Task.css.map */

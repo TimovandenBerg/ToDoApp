@@ -1,0 +1,32 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-bg:               #191919;
+  --clr-header-bg:        #0D0D0D;
+  --clr-form-bg:          #262626;
+  --clr-form-placeholder: #808080;
+  --clr-text:             #F2F2F2;
+  --clr-text-special:     #4EA8DE;
+  --clr-button-bg:        #1E6F9F;
+  --clr-action-bg:        #333333;
+  --clr-action-text:      #D9D9D9;
+  --clr-purple-text:      #8284FA;
+  --clr-svg:              #5E60CE;
+
+  --fnt-family: 'Inter', sans-serif; 
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: var(--fnt-family);
+}
+
+button {
+  cursor: pointer;
+}
